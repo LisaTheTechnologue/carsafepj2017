@@ -1,0 +1,88 @@
+﻿/*Banner 2*/
+#other {
+    background-color: blue;
+    background-image: url('../images/title-image.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    text-align:center;
+}
+    #other > .container {
+        top: 50%;
+        right: 50%;
+    }
+#title {
+	font-family: 'Times New Roman';
+	color: gold;
+	font-size: 71px;
+    line-height: 71px;
+    font-weight: 700;
+    letter-spacing: 0px;
+}
+#lead {
+	font-family: 'Times New Roman';
+	font-weight: 200;
+    font-size:30px;
+	color: white;
+}
+.container-fluid {
+    background-color:rgb(188, 206, 202);
+}
+.container {
+    padding:20px 10px;
+}
+.row {
+    padding:30px 0;
+}
+
+/*Steering locs*/
+#steer-warning {
+	font-size: 20px;
+	font-weight:50px;
+}
+.steer-img {
+	width:120px;
+	height:150px;
+	}
+	
+/*Concentration*/
+.conc-strong {
+	color: red;
+}
+
+.conc-list-head {
+	font-weight:60;
+}
+.conc-italic {
+	font-style: italic;
+}
+#conc-center {
+	text-align: center;
+}
+.conc-img {
+	margin-top:10%;
+	}
+#contacts {
+	background-color: blue;
+    background-image: url('../images/dn-bg.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    text-align:center;	
+    color: black;
+}
+/*News*/
+.news-img {
+	width:70%;
+}
+/*Donation*/
+.donate-img {
+	width: 90%
+}
+/*others small pages*/
+#mirror-container {
+	padding:20px;

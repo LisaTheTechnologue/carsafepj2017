@@ -1,0 +1,61 @@
+﻿﻿ /*Custom Stylesheet*/
+html, body {
+    height: 100%;
+    width: 100%;
+    color: black;
+    background-color: white;
+    -webkit-font-smoothing: antialiased;
+    margin-top:50px;
+}
+
+/*Navbar fx and collapse Bootstrap*/
+.fa {
+    font-size: 120%;
+    color: black;
+}
+.navbar,.nav {
+    background-color: gold;
+}
+.nav-link {
+    text-decoration-color:black;
+}
+
+
+/*.collapsing, .navbar-collapse.in, #collapsibleNavbar {
+    text-align: center;
+    margin-top: -15px;
+    margin-bottom: -15px;
+}*/
+
+/*Media box*/
+.relax {
+    bottom: 10px;
+    right: 10px;
+    position: fixed;
+    z-index: 99999;
+    background-color:gold;
+    border-radius:3px;
+    text-align:center;
+    font-size:150%;
+}
+.row-title {
+	color: #023368;
+	font-weight: 600;
+	font-size:30px;
+	margin:10px;
+}
+.col-title {
+	color: #023368;
+	font-weight: 700;
+	font-size:20px;
+}
+/*Footer*/
+#footer {
+    background-color:black;
+    padding-bottom: 25px;
+    color: gold;
+    text-align:center;
+}
+#footer > a{
+    color: gold;
+}
